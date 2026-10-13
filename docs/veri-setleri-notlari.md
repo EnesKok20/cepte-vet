@@ -18,3 +18,16 @@
 - İkinci veri setiyle karşılaştırmak (Zenodo / Roboflow)
 - Kendi çevremden sağlıklı sığır fotoğrafları toplamak; bir kısmını
   eğitime katmadan saha testi için ayırmak
+
+  ## İkinci veri seti: Cattle diseases datasets (Kaggle)
+- Kaynak: kaggle.com/datasets/devang03mgr/cattle-diseases-datasets
+- Lisans: DbCL v1.0 (internetten toplanmış görüntüler; asıl telif hakları farklı kaynaklara ait)
+- İçerik: lumpy 1.207, healthy 1.291, foot-and-mouth 746 (farklı boyutlarda)
+- Şap sınıfı şimdilik kullanılmayacak; ileride ikinci hastalık için aday.
+
+### İnceleme bulguları
+1. Ana setten daha büyük ve dengeli; sağlıklı görüntüler daha çeşitli (köy ortamı, yakın çekim).
+2. Augmentation önceden uygulanmış: yatay çevrilmiş kopyalar var (ters yazılı görsel).
+3. Haber görselleri ve filigranlı fotoğraflar var.
+4. Bazı lumpy görüntülerde hastalık belirtisi görünmüyor.
+5. 256x256 boyutlu görüntüler, Mendeley setiyle örtüşme olabileceğini düşündürüyor.
