@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f3d2e"/>
+      <stop offset="1" stop-color="#1b5e43"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#7fd6a4" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7fd6a4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#grid)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#glow)"/>
+
+  <!-- Wheat motif -->
+  <g transform="translate(70 60)" fill="#e9c46a">
+    <rect x="9" y="0" width="2" height="44" fill="#e9c46a"/>
+    <ellipse cx="4" cy="10" rx="4" ry="8" transform="rotate(-25 4 10)"/>
+    <ellipse cx="16" cy="10" rx="4" ry="8" transform="rotate(25 16 10)"/>
+    <ellipse cx="4" cy="24" rx="4" ry="8" transform="rotate(-25 4 24)"/>
+    <ellipse cx="16" cy="24" rx="4" ry="8" transform="rotate(25 16 24)"/>
+  </g>
+  <text x="104" y="92" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#e9c46a" font-weight="600">KTÜ · YAZILIM MÜHENDİSLİĞİ · TASARIM BİTİRME PROJESİ</text>
+
+  <text x="68" y="172" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#ffffff">Cepte Veterinerlik</text>
+  <text x="70" y="216" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#cfe9db">Sığırlarda Lumpy Skin Disease ön tespiti ve soru-cevap asistanı</text>
+
+  <!-- Metric chips -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="70" y="248" width="190" height="50" rx="25" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="165" y="280" text-anchor="middle" font-size="18" fill="#ffffff"><tspan font-weight="700">%92,6</tspan> accuracy</text>
+    <rect x="276" y="248" width="190" height="50" rx="25" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="371" y="280" text-anchor="middle" font-size="18" fill="#ffffff"><tspan font-weight="700">%92,3</tspan> recall</text>
+    <rect x="482" y="248" width="210" height="50" rx="25" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="587" y="280" text-anchor="middle" font-size="18" fill="#ffffff">YOLO11 · RAG · .NET</text>
+  </g>
+
+  <!-- Phone with scan -->
+  <g transform="translate(960 34)">
+    <rect x="0" y="0" width="170" height="282" rx="26" fill="#0b2a20" stroke="#7fd6a4" stroke-opacity="0.7" stroke-width="2.5"/>
+    <rect x="62" y="12" width="46" height="6" rx="3" fill="#7fd6a4" fill-opacity="0.5"/>
+    <rect x="14" y="30" width="142" height="160" rx="10" fill="#c9a27a"/>
+    <!-- hide texture -->
+    <path d="M14 70 Q60 55 100 80 T156 70 V30 H14 Z" fill="#b48a62" opacity="0.6"/>
+    <!-- nodules -->
+    <g fill="#8a5a3c" stroke="#6b4129" stroke-width="1.5">
+      <circle cx="48" cy="92" r="9"/><circle cx="92" cy="74" r="7"/><circle cx="118" cy="118" r="10"/>
+      <circle cx="66" cy="140" r="8"/><circle cx="104" cy="160" r="6"/><circle cx="36" cy="170" r="6"/>
+    </g>
+    <!-- scan corners -->
+    <g fill="none" stroke="#7fd6a4" stroke-width="4" stroke-linecap="round">
+      <path d="M24 56 V42 H38"/><path d="M132 42 H146 V56"/>
+      <path d="M24 164 V178 H38"/><path d="M146 164 V178 H132"/>
+    </g>
+    <line x1="22" y1="112" x2="148" y2="112" stroke="#7fd6a4" stroke-width="2" stroke-opacity="0.9"/>
+    <!-- result card -->
+    <rect x="14" y="202" width="142" height="62" rx="10" fill="#ffffff" fill-opacity="0.08"/>
+    <circle cx="34" cy="222" r="7" fill="#f4a261"/>
+    <text x="48" y="227" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">LSD riski yüksek</text>
+    <text x="26" y="251" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#cfe9db">Veterinerinize danışın →</text>
+  </g>
+</svg>
